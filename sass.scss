@@ -1,0 +1,150 @@
+@font-face {
+  font-family: 'geomantist';
+  src: local('geomanist-regular-webfont'), url(./geomanist-regular-webfont.woff) format('woff');
+}
+
+body {
+  margin: 0;
+  font-family: "geomantist",-apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App{
+   overflow-x: hidden;
+   max-width: 100%;
+}
+.full-height{
+  height: 100vh;
+}
+
+.fixed
+{
+  position: fixed;
+}
+.default-padding{
+  padding: 40px !important;
+}
+
+h1,h2,h3,h4,h5,h6,a{
+  font-weight: bold;
+}
+.hover-blue:hover{
+  color:#1565C0 !important;
+  -webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+}
+a{
+  color:#1565C0 !important;
+  -webkit-transition: all .3s ease;
+-moz-transition: all .3s ease;
+-ms-transition: all .3s ease;
+-o-transition: all .3s ease;
+transition: all .3s ease;
+
+}
+
+.sideBar {
+  padding: 40px;
+
+  h1,h2,h3,h4,h5,h6{
+  font-size: 1.8em;
+  line-height: .3em;
+  letter-spacing: .02em;
+}
+
+  .names{
+    margin-top:40px;
+    margin-bottom: 70px;
+  }
+
+  .link-item{
+    font-weight: bold;
+    margin: 15px 0 15px;
+    font-size: 1.1em;
+  }
+  i{
+    top: 6px;
+    position: relative;
+  }
+
+}
+
+.ArticleList{
+  h4{
+    margin-bottom: 40px;
+  }
+.card {
+  margin-right: 20px;
+  margin-bottom: 40px !important;
+  .card-content{
+    padding: 0px !important;
+  }
+  .text-content{
+    padding: 20px;
+    b{
+      padding: 0;
+      margin: 0;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    h3{
+      padding: 0;
+      margin: 10px 0 20px 0;
+      font-size: 2em;
+    }
+    p{
+      padding: 0;
+      margin: 0;
+      font-size: 1.25em;
+    }
+  }
+}
+}
+.description{
+  padding: 40px 200px 40px 0;
+  p{
+    font-size: 1.35em;
+  }
+}
+
+.Article{
+  .banner-image{
+    max-width: 100%;
+    margin: 0 auto;
+  }
+  h3,h4,h5,h6{
+    margin-bottom: 20px !important;
+  }
+
+  img{
+    margin-bottom: 40px !important;
+  }
+  p,h3,h4,h5,h6,ul,blockquote
+  {
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 20px !important
+  }
+  p{
+    font-size: 1.2rem;
+    line-height: 1.875rem;
+    margin-bottom: 3.5rem !important;
+  }
+
+  blockquote{
+    p{
+      width: auto;
+    }
+  }
+}
